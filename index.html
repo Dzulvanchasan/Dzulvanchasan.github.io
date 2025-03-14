@@ -496,9 +496,14 @@
             <!-- End Info Item -->
           </div>
 
+          <div style="margin-top: 50px;"></div>
+
           <form
             action="https://formsubmit.co/dzulvanchasan8987@gmail.com"
-            method="POST">
+            method="POST"
+            class="contact-form-gold"
+            data-aos="fade-up"
+            data-aos-delay="300">
             <input type="hidden" name="_next" value="https://dzulvanchasan.github.io/thanks.html">
             <input type="hidden" name="_subject" value="Pesan Baru dari Website Portfolio">
             <input type="hidden" name="_captcha" value="false">
@@ -727,6 +732,13 @@
       
       .error-message {
         border-left: 4px solid #FFD700;
+      }
+      
+      /* Tambahan untuk jarak antara info kontak dan form */
+      @media (max-width: 768px) {
+        .contact-form-gold {
+          margin-top: 30px;
+        }
       }
     </style>
   </body>
